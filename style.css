@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    justify-content: flex-end
+}
+.nazva{
+    text-align: right;
+}
+header h1{
+    color: rgb(0, 37, 37)
+}
+.lol{
+
+    margin-right: 10px;
+    margin-left: 369px;
+    padding: 1px;
+}
+p {
+    margin-top: -25px;
+    color: darkolivegreen;
+}
+main img {
+    width:200px;
+    height: 200px;
+    background-color: rgba(72, 209, 205, 0.568);
+    padding: 20px;
+    border-radius: 60px;
+}
+a {
+   background-color: rgba(255, 0, 0, 0.5);
+   border-radius: 60px;
+   padding: 10px;
+   margin-top: -5px;
+}
+.lol2{
+    float: left;
+    
+}
+
+footer h1 {
+    background-color:mediumturquoise;
+    border-radius: 10px;
+    text-align: center;
+           margin-left: 40px;
+       margin-right: 40px;
+}
+footer p{
+        background-color:mediumturquoise;
+       border-radius: 10px; 
+       margin-left: 40px;
+       margin-right: 40px;
+}
+.catalog{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.product a{
+    margin-top: 10px;
+    width: 150px;
+}
+.logo img{
+    height: 100px;
+}
+
+.heading_right{
+    display: flex;
+    justify-content: flex-end;    
+    background-color:mediumturquoise;
+    border-radius:7px ;
+    padding: 15px;
+    float: right;
+} 
+footer a{
+    background-color: rgba(0, 129, 129, 0.637);
+    border-radius: 11px;
+    padding: 5px;
+    color: antiquewhite;
+}
+.buysrcimg{
+    background-color:rgb(255, 255, 255) ;
+    width: 250px;
+    height: 250px;
+    padding: 0px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buysrca{
+    background-color: rgba(0, 129, 129, 0.637);
+    padding: 14px;
+    text-decoration: none;
+    color: rgb(0, 92, 49)
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    
+}
+
+.buttons a{
+    margin: 50px;
+}
+main p{
+    text-align: center;
+    background-color: palegoldenrod;
+    border-radius: 100px;
+    padding: 10px;
+}
+.catalog{
+    margin-top: 40px;
+}
+main a{
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+a:hover{
+    color:rgb(0, 156, 122);
+}
